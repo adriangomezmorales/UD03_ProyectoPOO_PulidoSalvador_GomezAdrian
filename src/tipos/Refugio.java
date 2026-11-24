@@ -6,7 +6,7 @@ public class Refugio {
 	private final String id;
 	private String nombre;
 	private String direccion;
-	private String telefono;
-	private int capacidadMaxima;
+	private Integer telefono;
+	private Integer capacidadMaxima;
 	private List<Mascota> mascotas;
 }
