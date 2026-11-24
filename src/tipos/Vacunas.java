@@ -18,6 +18,36 @@ public class Vacunas {
 		this.fechaVacunacion = fechaVacunacion;
 		this.fechaRenovacion = fechaRenovacion;
 	}
+
+
+	public LocalDate getFechaRenovacion() {
+		return fechaRenovacion;
+	}
+
+
+	public void setFechaRenovacion(LocalDate fechaRenovacion) {
+		this.fechaRenovacion = fechaRenovacion;
+	}
+
+
+	public String getId() {
+		return id;
+	}
+
+
+	public Mascota getMascota() {
+		return mascota;
+	}
+
+
+	public TiposVacunas getEnfermedad() {
+		return enfermedad;
+	}
+
+
+	public LocalDate getFechaVacunacion() {
+		return fechaVacunacion;
+	}
     
     
     
