@@ -13,4 +13,23 @@ public class Mascota {
 	private LocalDate fechaAdopcion;
 	private LocalDate fechaEntrada;
 	private Boolean estaEsterelizado;
+	
+	public Mascota(String id, Refugio refugio, String nombre, Tipos tipo, String especie, String raza,
+			LocalDate fechaNacimiento, Boolean disponibleAdopcion, LocalDate fechaAdopcion, LocalDate fechaEntrada,
+			Boolean estaEsterelizado) {
+		this.id = id;
+		this.refugio = refugio;
+		this.nombre = nombre;
+		this.tipo = tipo;
+		this.especie = especie;
+		this.raza = raza;
+		this.fechaNacimiento = fechaNacimiento;
+		this.disponibleAdopcion = disponibleAdopcion;
+		this.fechaAdopcion = fechaAdopcion;
+		this.fechaEntrada = fechaEntrada;
+		this.estaEsterelizado = estaEsterelizado;
+	}
+	
+	
+	
 }
